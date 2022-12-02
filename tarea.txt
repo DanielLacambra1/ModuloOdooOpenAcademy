@@ -1,0 +1,17 @@
+La función del archivo __init__.py es para importar las carpetas y ficheros necesarios de las clases del módulo de odoo.
+
+
+Los ficheros de datos tienen que estar declarados en el manifest
+ __manifest__.py : información del modulo
+
+Nombres de campo reservados. Algunos nombres de campo están reservados para ser usados por Odoo:
+    - id
+    - name
+    - active
+    - sequence
+    - state
+    - parent_id, parent_left, parent_right
+    - create_uid: para el usuario que crea el registro
+    - created_date: fecha y hora en que el registro es creado
+    - write_uid: último usuario que modifica el registro
+    - write_date: última fecha y hora en que el registro fue modificados
